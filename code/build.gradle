@@ -20,8 +20,14 @@ test {
     useJUnitPlatform()
 }
 
-task texttest(type: JavaExec) {
-    main = "com.gildedrose.TexttestFixture"
+tasks.register('simulate', JavaExec) {
+    mainClass = "com.gildedrose.util.TexttestFixture"
+    classpath = sourceSets.test.runtimeClasspath
+    args "30"
+}
+
+tasks.register('compare-output', JavaExec) {
+    mainClass = "com.gildedrose.util.DiffAgainstExpectedOutput"
     classpath = sourceSets.test.runtimeClasspath
     args "30"
 }
