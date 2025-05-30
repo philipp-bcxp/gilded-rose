@@ -1,4 +1,4 @@
-# Anforderungsspezifikation der Vergoldeten Rose (Gilded Rose)
+# Anforderungsspezifikation der Gilded Rose
 
 Hallo und willkommen im Team **Gilded Rose**. Wie Du sicher weißt, sind wir ein kleiner Gasthof in bester Lage in einer bekannten Stadt, der von einem freundlichen Gastwirt namens Allison geführt wird. 
 Wir kaufen und verkaufen nur die besten Produkte.
