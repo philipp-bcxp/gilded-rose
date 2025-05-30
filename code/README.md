@@ -1,9 +1,14 @@
 # Gilded Rose
-## Run the Simulation from Command-Line
 
+On Windows without WSL use `gradlew.bat` instead of `gradlew`
+
+You might have to make `gradlew` executable with `chmod u+x gradlew`
+
+## Run the Simulation from Command-Line
 ```sh
 ./gradlew -q simulate
 ```
+
 
 ### Specify Number of Days
 
